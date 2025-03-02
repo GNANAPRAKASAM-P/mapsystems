@@ -1,0 +1,222 @@
+@font-face {
+    font-family: Manrope;
+    src: url(./fonts/Manrope-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Manrope ;
+}
+
+.sec-1{
+background: linear-gradient(#E3FDF5, #FFE6FA) !important;
+width: 100%;
+height: 116vh;
+position: relative;
+}
+.btn-book{
+    background: #EC2327 !important;
+    font-weight: 600 !important;
+    color: white !important;
+    font-size: 20px !important;
+}
+.nav-item a{
+    font-size: 16px !important;
+    font-weight: 600;
+    color: black;
+}
+.banner {
+    height: 60vh;
+    width: 80%;
+    padding-top: 10%;
+}
+.banner p{
+    font-size: 18px;
+}
+.banner .btn-primary{
+    background: #EC2327 !important;
+    font-weight: 600 !important;
+    color: white !important;
+    font-size: 20px !important;
+    border:none !important;
+}
+.banner .btn-outline-primary{
+    background: white !important;
+    font-weight: 600 !important;
+    color: #EC2327 !important;
+    font-size: 20px !important;
+    border: 1px solid #EC2327 !important;
+}
+.partner img{
+    width: 50%;
+    background: transparent !important;
+}
+.partner .list-group-item{
+    border: none !important;
+}
+.partner .list-group{
+    display: flex;
+    align-items: center !important;
+    text-align: center !important;
+    justify-content: space-between !important;
+}
+.cta {
+    width: 90% !important;
+    background: linear-gradient(#6713D2, #CC208E);
+    border-radius: 20px;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.cta p, .cta h4{
+    color: white;
+    padding: 3px 0;
+}
+.cta h4{
+    font-size: 36px;
+}
+.cta p{
+    font-size: 14px !important;
+}
+.cta img{
+    width: 30%;
+}
+/* ----- */
+.sec-2{
+    background: black;
+    margin: auto;
+    padding: 20% 0;
+    
+}
+.accordion-button::after{
+    display: none;
+}
+.get-btn .btn-primary, .sec-6 .row-2 .btn-1 {
+    background: #EC2327 !important;
+    font-weight: 600 !important;
+    color: white !important;
+    font-size: 16px !important;
+    border: none !important;
+    padding: 10px 40px !important;
+}
+
+.sec-3{
+    background: linear-gradient(#10001D, #110A16);
+    margin: auto;
+    padding: 8% 0;
+}
+.sec-3 .row-3{
+    background-image: url('images/bg-circles.png');
+    background-position: left;
+    background-size: contain;
+    /* overflow-y: visible; */
+    background-repeat: no-repeat;
+}
+.sec-4{
+    background: #F6F8FF;
+    margin: auto;
+    padding: 4% 0;
+}
+.sec-4 .container{
+    width: 50%;
+}
+.sec-5{
+    background: #F6F8FF;
+    margin: auto;
+    padding: 4% 0;
+}
+.sec-5 img{
+    width: 20%;
+}
+.sec-6{
+    background: white;
+    margin: auto;
+    padding: 4% 0;
+}
+.sec-6 .row-2{
+    width: 90% !important;
+    margin: auto;
+}
+
+.sec-7{
+    background-image: url('images/testi-bg.png');
+    /* background: #F6F8FF; */
+}
+.sec-7 .row{
+    width: 90%;
+    margin: auto;
+}
+
+.user-content p{
+    margin-top:5px;
+    font-size:12px;
+}
+
+.ratings i{
+    color:#FF7700;
+}
+.sec-8{
+    background: linear-gradient(#667EEA, #330867);
+    margin: auto;
+}
+.sec-8 .row-card{
+    width: 80%;
+    margin: auto;
+}
+.sec-9{
+background: #0F0F0F;
+margin: auto;
+}
+.sec-9 .row-foot{
+    width: 80% !important;
+}
+
+
+/* mobile & tab media queries */
+@media only screen and (max-width:768px){
+    .sec-1 {
+        height: 120vh !important;
+    }
+    .cta {
+        width: 90% !important;
+    }
+    .sec-4 .container{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:425px){
+    .sec-1 {
+        height: 110vh !important;
+    }
+    .banner .btn-primary{
+        margin-bottom: 10px;
+    }
+    .partner{
+        margin-top: 40%;
+    }
+    .cta {
+        background: linear-gradient(#6713D2, #CC208E);
+        border-radius: 20px;
+        padding: 30px 40px;
+        display: block;
+        text-align: center;        
+    }
+    .cta div{
+        padding-bottom: 20px;
+    }
+    .cta hr{
+        margin: auto;
+    }
+    .sec-2{
+        position: relative;
+        top: 110rem;
+    }
+    .sec-3, .sec-4, .sec-5, .sec-6, .sec-7, .sec-8,.sec-9{
+        position: relative;
+        top: 110rem;
+    }
+}
